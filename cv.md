@@ -6,9 +6,9 @@
 
 *About me* : I'm a student from St. Petersburg who is interested in self-development and current business trends.
 Chinese and English language learning is among my hobbies.
-I think that coding can help me to become familiar with IT world. My slogan is "not be afraid of difficulties and find methods for carrying out a task".
+I think that coding can help me to become familiar with IT world. My slogan is "not to be afraid of difficulties and find methods for carrying out a task".
 
-*Coding/Programming skills* : Familiar wth basics of JavaScript, as well as HTML and CSS.
+*Coding/Programming skills* : Familiar with basics of JavaScript, as well as HTML and CSS.
 
 *Test code* :
 ```
