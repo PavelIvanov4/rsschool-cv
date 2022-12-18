@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+    <title>Pavel Ivanov – CV Page</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <header>RS School Projects
+  </header>
+  <nav>
+    <a class="menulink" href="#logo">About me</a>
+	<a class="menulink" href="#linknew1">Projects</a>
+	<a class="menulink" href="#logo2">Test Code</a>
+  </nav>
+  <main>
+<h1>CV – HTML Edition</h1>
+   <div class="me">
+      <span id="logo">About Me</span><img src="https://avatars.githubusercontent.com/u/94687008?v=4" alt="No image found." width="185" id="paul">
+
+  <h2>Name</h2>
+  <p>Pavel Ivanov</p>
+  <h2>Contact Info</h2>
+  <p>paul.morninglight@gmail.com; Pavel Ivanov#4201</p>
+  <h2>About Me</h2>
+  <p>I'm an aspiring front end engineer from St. Petersburg who is interested in self-development and current business trends.<br>
+     Language learning is one of my big hobbies, especially when it comes to <span id="german">German</span> and <span id="chinese">Chinese</span>.<br>
+     I also try to get closer to IT world through coding.<br>
+     My slogan is <span id="slogan">"not to be afraid of difficulties and find methods for carrying out a task"</span>.</p>
+  <h2>Coding/Programming skills</h2>
+   <p>Familiar with basics of JavaScript, as well as HTML and CSS.<br>
+      A while ago I decided to master DOM manipulation and recently I've enrolled to Vue.js course on Codecademy.com. That's my first framework ever.</p>
+  <h2>Job experience</h2> <ul>
+        <li>Chinese script translator (2016-2018)</li>
+        <li>Web developer (2019-). I created a couple of landing pages and with DOM script they can have multiple HTML pages in one.</li>
+		</ul>
+		<ol>
+		<li><a href="https://pavelivanov4.github.io/Random-Number-Generator/" id="linknew1">Random Number Generator</a></li>
+		<li><a href="https://pavelivanov4.github.io/InSite/" id="linknew2">InSite</a></li></ol>
+  <h2>Education</h2> <ul>
+    <li>Saint Petersburg State University (2012-2017) Major in Chinese language. I have a high result and received a diploma.</li>
+    <li>Rolling Scopes School Lithuania JS/Front-end course in English.</li>
+    </ul>
+	<h2>English proficiency level</h2>
+	<p>English is on B2 level (last tested in EPAM labs in November 2021)<br>
+I attended business language courses in Social Economic University of St. Petersburg, and I have experience of communicating with native speakers.</p>
+      </div><br><br><br>
+  <div class="coding" onclick="
+  var count = Math.floor(Math.random() * 12);
+  if(count <= 3) {
+  this.setAttribute('class', 'coding2');
+  } else if(count <= 6) {
+  this.setAttribute('class', 'coding3');
+  } else if(count <= 9) {
+  this.setAttribute('class', 'coding4');
+  } else if(count <= 12) {
+  this.setAttribute('class', 'coding5');
+  }
+  ">
+  <span id="logo2">Test Code</span>
+**Click on this box to change its color**<br>  
+let degree = prompt("Insert degrees");<br>
+let metric = 0;<br>
+    while(metric &lt; 1 || metric &gt; 3) { <br>
+metric = parseInt(prompt("Insert 1 if it's Calvin, 2 if Celsius, and 3 if you need Fahrenheit degrees"));<br>
+}<br>
+if(metric==1) { <br>
+console.log(degree+" Calvin degrees = "+toString(degree-273)+" Celsius degrees = "+toString(Math.floor((degree-273)*(9/5)+32))+" Fahrenheit degrees");<br>
+}<br>
+else if(metric==2) { <br>
+//same as the first } <br>
+else { <br>
+//same as the first <br>
+}<br>
+    </div>
+      </main>
+    <footer>
+      <a href="https://github.com/PavelIvanov4" class="bottomlink">Github Profile Link</a>
+	  <div class="bottomlogo"><img src="https://rs.school/images/rs_school_js.svg" alt="No image found." width="60">&nbsp; 2022</div>
+             <a href="https://rs.school/js/" class="bottomlink">Course</a>
+    </footer>
+</body>
+</html>
